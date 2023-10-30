@@ -116,13 +116,13 @@ blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
+/* blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   main: "";
   main: none;
-}
+} */
 
 table {
   border-collapse: collapse;
@@ -170,9 +170,6 @@ body {
 .navbar a:hover {
   background-color: rgb(180, 55, 90);
   color: aliceblue;
-}
-
-.hero {
 }
 
 .main {
